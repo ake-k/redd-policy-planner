@@ -322,6 +322,7 @@ AI assistance was used to build the app and draft this report; I checked every n
 </div></body></html>"""
 
 # ------------------------------------------------------------------ slides
+REVEAL_CDN = "https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist"  # brief: reveal.js loaded from a CDN
 SLIDE_CSS = """
 .reveal{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Inter,sans-serif;color:#0f2a22;font-size:30px}
 .reveal .slides{text-align:left}
@@ -342,7 +343,7 @@ table.t{font-size:.74em;border-collapse:collapse;width:100%}table.t td,table.t t
 """
 jnr_s = fmt(J["net_credits_tco2e"]); art_s = fmt(A["net_credits_tco2e"])
 SLIDES = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>REDD+ Policy Planner · Slides</title><style>{(OUT / 'assets' / 'reveal.css').read_text(encoding='utf-8')}</style><style>{SLIDE_CSS}</style></head>
+<title>REDD+ Policy Planner · Slides</title><link rel="stylesheet" href="{REVEAL_CDN}/reveal.css"><style>{SLIDE_CSS}</style></head>
 <body><div class="reveal"><div class="slides">
 
 <section><div class="glass" style="padding:1.2em 1.4em">
@@ -411,7 +412,7 @@ AI agents that run the real rule calculators, cite the rules, and check every nu
 <p class="tiny" style="margin-top:1em">Planning aid only. The official Verra JNR and ART TREES documents and tools govern.</p></section>
 
 </div></div>
-<script>{(OUT / 'assets' / 'reveal.js').read_text(encoding='utf-8')}</script>
+<script src="{REVEAL_CDN}/reveal.js"></script>
 <script>Reveal.initialize({{hash:true,controls:true,progress:true,center:false,width:1280,height:760,margin:0.06,transition:'fade'}});</script>
 </body></html>"""
 
