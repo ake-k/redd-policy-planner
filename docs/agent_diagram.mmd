@@ -1,0 +1,16 @@
+flowchart LR
+  U([Policymaker]) -->|question + dashboard state| S{{Safety screen<br/>length · injection · rate · budget}}
+  S -->|blocked| L[(Safety log)]
+  S --> C[(Answer cache)]
+  C -->|miss| O[Orchestrator<br/>gpt-6-luna · routes]
+  O -->|rules_question| R[Rules Navigator<br/>gpt-6-luna]
+  O -->|scenario / compare| A[Scenario Analyst<br/>gpt-6-luna]
+  O -->|out_of_scope| U
+  R --- RT[search_library · get_rule · get_sources]
+  A --- AT[run_simulator · score_jnr_risk · score_trees_risk<br/>allocate_jnr · compute_trees_credits · compare_standards · set_dashboard_state]
+  AT --> E[(engine/ deterministic math<br/>rules/*.json)]
+  RT --> LIB[(library/*.md excerpts<br/>screened, untrusted blocks)]
+  R --> V[Verifier<br/>code: numbers + citations]
+  A --> V
+  V -->|rejected once| R & A
+  V -->|approved or Unverified badge| U

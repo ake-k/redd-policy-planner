@@ -1,0 +1,18 @@
+{
+  "JNR": {
+    "label": "Verra JNR v4.1",
+    "documents": [
+      {"title": "JNR Non-Permanence Risk Tool", "version": "v4.1", "url": "https://verra.org/programs/jurisdictional-nested-redd-framework/", "last_checked": "2026-10-26"},
+      {"title": "JNR Scenario 1 and 2 Requirements", "version": "v4.1", "url": "https://verra.org/programs/jurisdictional-nested-redd-framework/", "last_checked": "2026-10-26"},
+      {"title": "VT0007 Unplanned Deforestation Allocation (UDef-A)", "version": "v1.0 (21 Feb 2024)", "url": "https://verra.org/methodologies/vt0007-unplanned-deforestation-allocation-udef-a-v1-0/", "last_checked": "2026-10-26"}
+    ]
+  },
+  "ART": {
+    "label": "ART TREES 3.0",
+    "documents": [
+      {"title": "The REDD+ Environmental Excellence Standard (TREES)", "version": "3.0 (June 2026)", "url": "https://www.artredd.org/standards/trees-3-0/", "last_checked": "2026-10-26"},
+      {"title": "TREES Reversal Risk Rating Tool", "version": "v1.0 (June 2026)", "url": "https://www.artredd.org/documents/trees-reversal-risk-rating-tool/", "last_checked": "2026-10-26"},
+      {"title": "TREES 3.0 Monitoring Report template", "version": "3.0", "url": "https://www.artredd.org/documents/trees-monitoring-report/", "last_checked": "2026-10-26"}
+    ]
+  }
+}

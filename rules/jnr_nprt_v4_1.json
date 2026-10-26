@@ -1,0 +1,161 @@
+{
+  "id": "jnr_nprt_v4_1",
+  "title": "JNR Non-Permanence Risk Tool",
+  "source": "Verra JNR Non-Permanence Risk Tool",
+  "version": "v4.1",
+  "section": "2.1.2 General rules; 2.3 Overall risk rating",
+  "last_checked": "2026-10",
+  "political_governance": {
+    "section": "2.2.1 Political and Governance Risk (Table 1)",
+    "wgi_bands": [
+      {
+        "below": -0.9,
+        "score": 8
+      },
+      {
+        "below": -0.7,
+        "score": 6
+      },
+      {
+        "below": -0.4,
+        "score": 4
+      },
+      {
+        "below": 0.0,
+        "score": 2
+      },
+      {
+        "below": null,
+        "score": 1
+      }
+    ],
+    "adjustments": {
+      "subnational_no_national_support": 2,
+      "protected_from_government_change": -1,
+      "governance_readiness_underway": -2
+    },
+    "note": "The PDF's top band reads 'greater than 0'; this app scores exactly 0 as 1."
+  },
+  "program_design": {
+    "section": "2.2.2 Program Design and Strategy Risk (Table 2)",
+    "default": 10,
+    "mitigations": {
+      "commodity_production_maintained": -3,
+      "subsistence_drivers_addressed": -3,
+      "green_economy_plan": -2,
+      "strategy_with_deforestation_agents": -1,
+      "readiness_funding_received": -1
+    }
+  },
+  "carbon_rights": {
+    "section": "2.2.3 Carbon Rights and Revenues Risk (Table 3)",
+    "law_not_enacted": 4,
+    "law_enacted": 1,
+    "tenure_disputes_over_10pct": 1,
+    "statutory_land_rights": -1,
+    "dispute_mechanism": -1,
+    "non_redd_revenue_bands": [
+      {
+        "above": 40,
+        "score": 4
+      },
+      {
+        "above": 20,
+        "score": 2
+      },
+      {
+        "above": null,
+        "score": 1
+      }
+    ],
+    "stakeholder_revenue_policy": -1
+  },
+  "funding": {
+    "section": "2.2.4 Funding Risk (Table 4)",
+    "default": 6,
+    "mitigations": {
+      "breakeven_or_commercial_revenue": -2,
+      "funding_secured_40pct": -2,
+      "domestic_carbon_market": -1,
+      "public_private_partnerships": -1
+    }
+  },
+  "program_longevity": {
+    "section": "2.2.5 Program Longevity Risk (Table 5)",
+    "legal_agreement_years": 100,
+    "minimum_years": 40,
+    "base": 25,
+    "divisor_with_legal_requirement": 4,
+    "divisor_without_legal_requirement": 5
+  },
+  "natural_risk": {
+    "section": "2.2.6 Natural Risk (Table 6)",
+    "significance_levels": [
+      "catastrophic",
+      "devastating",
+      "massive",
+      "major",
+      "minor",
+      "insignificant"
+    ],
+    "likelihood_levels": [
+      "1-10",
+      "10-25",
+      "25-50",
+      "50-100",
+      "100+"
+    ],
+    "matrix": {
+      "catastrophic": [
+        "FAIL",
+        30,
+        20,
+        10,
+        0
+      ],
+      "devastating": [
+        30,
+        20,
+        15,
+        5,
+        0
+      ],
+      "massive": [
+        20,
+        15,
+        10,
+        3,
+        0
+      ],
+      "major": [
+        15,
+        10,
+        5,
+        2,
+        0
+      ],
+      "minor": [
+        10,
+        5,
+        2,
+        1,
+        0
+      ],
+      "insignificant": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mitigation_multiplier": 0.8,
+    "mitigation_note": "20% reduction only for proven mitigation of risks affecting 10% or more of forest carbon stocks or area"
+  },
+  "overall": {
+    "minimum_rating": 10,
+    "fail_above": 60,
+    "section": "2.3 Overall Risk Rating"
+  },
+  "guarantee_note": "2.1.2(5): with a replacement guarantee the rating applies only to the uncovered share (PDF example: 100,000 tCO2e, 30% guaranteed, 20% rating -> 14,000 buffer credits)."
+}

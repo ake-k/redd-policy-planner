@@ -1,0 +1,21 @@
+prompt_caching,case,question,route,verified,pass,input_tokens,cached_tokens,cache_write_tokens,output_tokens,cost_usd,tool_calls,latency_s
+True,1,Compare net credits under JNR and ART for the default inputs.,scenario,True,True,8668,7699,684,390,0.000386,1,2.66
+True,2,"Under JNR, what happens to our buffer if we get a 100-year legal agreement?",scenario,True,True,14285,9015,4976,609,0.001046,3,1.13
+True,3,What does TREES 3.0 say about deducting project credits?,rules,True,True,6105,2439,2816,555,0.000739,2,1.16
+True,4,"If we pass a carbon rights law and secure 40% of funding, what is our JNR buffer?",scenario,True,True,13438,12176,965,232,0.000388,2,7.27
+True,5,What is our ART buffer if a reversal was reported in the past 5 years?,scenario,True,True,13313,12099,922,281,0.000406,2,12.87
+True,6,"Under ART, how many net credits do we get if we cut deforestation by 50%?",scenario,True,True,13236,12083,858,496,0.000506,2,9.1
+True,7,How does the JNR Non-Permanence Risk Tool turn the risk rating into a buffer?,rules,True,True,6968,2494,3615,547,0.000836,2,12.58
+True,8,What does ART say about the 5% assumed reversal risk?,rules,True,True,10598,5089,4660,732,0.001084,2,14.96
+True,9,Are we eligible under JNR if our program longevity is only 30 years?,rules,True,False,3237,0,2387,260,0.000513,1,5.87
+True,10,"Under JNR Scenario 1, does the government receive credits?",rules,True,True,3342,0,2498,274,0.000534,1,6.37
+False,1,Compare net credits under JNR and ART for the default inputs.,scenario,True,True,8750,0,8444,614,0.001393,1,19.24
+False,2,"Under JNR, what happens to our buffer if we get a 100-year legal agreement?",scenario,True,True,18599,0,18281,442,0.002538,3,14.88
+False,3,What does TREES 3.0 say about deducting project credits?,rules,True,True,7625,0,6729,668,0.001265,2,14.34
+False,4,"If we pass a carbon rights law and secure 40% of funding, what is our JNR buffer?",scenario,True,True,13528,0,13206,279,0.001822,2,7.81
+False,5,What is our ART buffer if a reversal was reported in the past 5 years?,scenario,True,True,13434,0,13121,364,0.001853,2,8.4
+False,6,"Under ART, how many net credits do we get if we cut deforestation by 50%?",scenario,True,True,13713,0,13396,510,0.001961,2,10.83
+False,7,How does the JNR Non-Permanence Risk Tool turn the risk rating into a buffer?,rules,True,True,16569,0,15659,783,0.00244,3,14.48
+False,8,What does ART say about the 5% assumed reversal risk?,rules,True,True,15422,0,14526,941,0.002376,3,17.91
+False,9,Are we eligible under JNR if our program longevity is only 30 years?,scenario,True,True,13535,0,13220,518,0.001943,2,17.53
+False,10,"Under JNR Scenario 1, does the government receive credits?",rules,True,True,3409,0,2521,238,0.000523,1,5.18

@@ -1,0 +1,92 @@
+{
+  "id": "trees_3_0_rrrt",
+  "title": "TREES Reversal Risk Rating Tool",
+  "source": "ART TREES Reversal Risk Rating Tool",
+  "version": "v1.0 (June 2026), used with TREES 3.0 Section 7.1.1",
+  "section": "Risk categories; TREES 3.0 Section 7.1.1-7.1.2",
+  "last_checked": "2026-10",
+  "placeholder": false,
+  "assumed_risk_pct": 5,
+  "cap_pct": 25,
+  "reversal_in_past_5_years_pct": 30,
+  "factors": {
+    "program_governance": {
+      "label": "REDD+ program governance",
+      "question": "Is the REDD+ program mandated by law, policy or another legally binding instrument?",
+      "levels": {
+        "High": 2,
+        "Low": 0
+      },
+      "level_help": {
+        "High": "No",
+        "Low": "Yes"
+      }
+    },
+    "country_governance": {
+      "label": "Country governance",
+      "question": "Average WGI percentile rank across all six indicators, past five years",
+      "levels": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "level_help": {
+        "High": "< 45",
+        "Medium": "45 to < 55",
+        "Low": ">= 55"
+      }
+    },
+    "experience": {
+      "label": "Experience / capacity",
+      "question": "Has the program received multiple results-based payments or joined a climate finance program before ART?",
+      "levels": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "level_help": {
+        "High": "No",
+        "Medium": "Yes, < 10 years",
+        "Low": "Yes, >= 10 years"
+      }
+    },
+    "inclusivity": {
+      "label": "Inclusivity",
+      "question": "Is there a formal multi-stakeholder committee (incl. IPLCs) giving ongoing input?",
+      "levels": {
+        "High": 2,
+        "Low": 0
+      },
+      "level_help": {
+        "High": "No",
+        "Low": "Yes"
+      }
+    },
+    "disturbance": {
+      "label": "Disturbance impact",
+      "question": "Share of forest in the accounting area hit by natural disturbances over the last 5 years",
+      "levels": {
+        "High": 8,
+        "Medium": 5,
+        "Low": 0
+      },
+      "level_help": {
+        "High": "> 1%",
+        "Medium": "0.5 to 1%",
+        "Low": "< 0.5%"
+      }
+    },
+    "mitigation": {
+      "label": "Mitigation plans",
+      "question": "Is there a robust system to prevent or limit disturbances (e.g. fire detection and response)?",
+      "levels": {
+        "High": 2,
+        "Low": 0
+      },
+      "level_help": {
+        "High": "No",
+        "Low": "Yes"
+      }
+    }
+  }
+}

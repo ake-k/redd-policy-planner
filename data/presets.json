@@ -1,0 +1,43 @@
+{
+  "Sample Province": {},
+  "Northern Highlands (fictional)": {
+    "jurisdiction": "Northern Highlands (fictional)",
+    "sim": {"deforestation_ha": 12000, "emission_factor": 620, "reduction_pct": 25, "leakage_pct": 6, "uncertainty_pct": 5},
+    "jnr_risk": {"wgi_avg": -0.15, "carbon_rights_law": false, "tenure_disputes_over_10pct": true, "non_redd_revenue_pct": 30,
+                 "funding_secured_40pct": false, "longevity_years": 45, "nr_significance": "major", "nr_likelihood": "10-25",
+                 "subnational_no_national_support": false},
+    "trees_risk": {"program_governance": "Low", "country_governance": "Medium", "experience": "Medium", "inclusivity": "Low",
+                   "disturbance": "High", "mitigation": "Low", "reversal_in_past_5_years": false},
+    "allocation": {"projects": [{"name": "Doi Forest Project", "share_pct": 15, "emission_factor": 650},
+                                {"name": "Valley Community REDD+", "share_pct": 6, "emission_factor": 540}]},
+    "trees_credits": {"other_programs_tco2e": 120000, "no_rights_tco2e": 0},
+    "benefit": {"communities_pct": 35, "nested_pct": 20, "reserve_pct": 10}
+  },
+  "Coastal Mangrove State (fictional)": {
+    "jurisdiction": "Coastal Mangrove State (fictional)",
+    "sim": {"deforestation_ha": 4000, "emission_factor": 880, "reduction_pct": 40, "leakage_pct": 3, "uncertainty_pct": 8},
+    "jnr_risk": {"wgi_avg": 0.2, "carbon_rights_law": true, "tenure_disputes_over_10pct": false, "dispute_mechanism": true,
+                 "non_redd_revenue_pct": 15, "stakeholder_revenue_policy": true, "funding_secured_40pct": true,
+                 "longevity_years": 100, "legal_requirement_to_continue": true, "nr_significance": "massive",
+                 "nr_likelihood": "25-50", "nr_mitigation": true},
+    "trees_risk": {"program_governance": "Low", "country_governance": "Low", "experience": "Low", "inclusivity": "Low",
+                   "disturbance": "Medium", "mitigation": "Low", "reversal_in_past_5_years": false},
+    "allocation": {"projects": [{"name": "Blue Carbon Bay", "share_pct": 25, "emission_factor": 900}]},
+    "trees_credits": {"other_programs_tco2e": 0, "no_rights_tco2e": 15000},
+    "benefit": {"communities_pct": 40, "nested_pct": 10, "reserve_pct": 15}
+  },
+  "Frontier Lowlands (fictional)": {
+    "jurisdiction": "Frontier Lowlands (fictional)",
+    "sim": {"deforestation_ha": 45000, "emission_factor": 300, "reduction_pct": 20, "leakage_pct": 12, "uncertainty_pct": 10},
+    "jnr_risk": {"wgi_avg": -0.8, "subnational_no_national_support": true, "governance_readiness_underway": false,
+                 "carbon_rights_law": false, "non_redd_revenue_pct": 45, "domestic_carbon_market": false,
+                 "longevity_years": 40, "nr_significance": "devastating", "nr_likelihood": "25-50"},
+    "trees_risk": {"program_governance": "High", "country_governance": "High", "experience": "High", "inclusivity": "High",
+                   "disturbance": "High", "mitigation": "High", "reversal_in_past_5_years": false},
+    "allocation": {"projects": [{"name": "Frontier Cattle Belt", "share_pct": 30, "emission_factor": 280},
+                                {"name": "River Corridor", "share_pct": 10, "emission_factor": 350},
+                                {"name": "Southern Reserve", "share_pct": 5, "emission_factor": 400}]},
+    "trees_credits": {"other_programs_tco2e": 50000, "no_rights_tco2e": 30000},
+    "benefit": {"communities_pct": 25, "nested_pct": 25, "reserve_pct": 10}
+  }
+}

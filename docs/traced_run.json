@@ -1,0 +1,94 @@
+{
+ "run": {
+  "ts": "2026-10-26T17:30:14+00:00",
+  "type": "run",
+  "run_id": "04c309285906",
+  "session_id": "24cd5d9e-f3b8-4e",
+  "kind": "scenario",
+  "verified": true,
+  "question": "If we pass a carbon rights law, secure 40% of our funding and sign a 100-year legal agreement, how do our net credits under JNR compare with ART?",
+  "hops": [
+   "orchestrator",
+   "scenario_analyst"
+  ],
+  "tool_calls": 2,
+  "input_tokens": 13170,
+  "cached_tokens": 12017,
+  "cache_write_tokens": 801,
+  "output_tokens": 580,
+  "cost_usd": 0.000545495,
+  "answer_excerpt": "ART yields more net credits than JNR in this scenario: JNR produces 2,093,040 tCO\u2082e and ART produces 2,162,160 tCO\u2082e. The JNR-minus-ART difference is \u221269,120 tCO\u2082e. The requested carbon rights law, funding commitment, and 100-year legal agreement are included; JNR is eligible.",
+  "latency_s": 14.26,
+  "stopped": null
+ },
+ "calls": [
+  {
+   "ts": "2026-10-26T17:30:03+00:00",
+   "type": "call",
+   "run_id": "04c309285906",
+   "session_id": "24cd5d9e-f3b8-4e",
+   "agent": "orchestrator",
+   "model": "gpt-6-luna-global",
+   "input_tokens": 343,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "output_tokens": 51,
+   "tool_calls": [],
+   "latency_s": 3.68,
+   "cost_usd": 5.9800000000000003e-05,
+   "caching": true
+  },
+  {
+   "ts": "2026-10-26T17:30:06+00:00",
+   "type": "call",
+   "run_id": "04c309285906",
+   "session_id": "24cd5d9e-f3b8-4e",
+   "agent": "scenario_analyst",
+   "model": "gpt-6-luna-global",
+   "input_tokens": 4143,
+   "cached_tokens": 3582,
+   "cache_write_tokens": 558,
+   "output_tokens": 51,
+   "tool_calls": [
+    "compare_standards"
+   ],
+   "latency_s": 2.57,
+   "cost_usd": 0.00013137,
+   "caching": true
+  },
+  {
+   "ts": "2026-10-26T17:30:08+00:00",
+   "type": "call",
+   "run_id": "04c309285906",
+   "session_id": "24cd5d9e-f3b8-4e",
+   "agent": "scenario_analyst",
+   "model": "gpt-6-luna-global",
+   "input_tokens": 4298,
+   "cached_tokens": 4140,
+   "cache_write_tokens": 155,
+   "output_tokens": 55,
+   "tool_calls": [
+    "set_dashboard_state"
+   ],
+   "latency_s": 2.18,
+   "cost_usd": 8.857499999999998e-05,
+   "caching": true
+  },
+  {
+   "ts": "2026-10-26T17:30:14+00:00",
+   "type": "call",
+   "run_id": "04c309285906",
+   "session_id": "24cd5d9e-f3b8-4e",
+   "agent": "scenario_analyst",
+   "model": "gpt-6-luna-global",
+   "input_tokens": 4386,
+   "cached_tokens": 4295,
+   "cache_write_tokens": 88,
+   "output_tokens": 423,
+   "tool_calls": [],
+   "latency_s": 5.81,
+   "cost_usd": 0.00026575,
+   "caching": true
+  }
+ ]
+}

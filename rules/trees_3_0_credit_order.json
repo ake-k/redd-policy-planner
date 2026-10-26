@@ -1,0 +1,43 @@
+{
+  "id": "trees_3_0_credit_order",
+  "title": "TREES 3.0 credit calculation order",
+  "source": "ART TREES 3.0 Monitoring Report template",
+  "version": "TREES 3.0",
+  "section": "TREES 3.0 Section 10.4.1, Equations 26-30; TMR 'Total TREES Credits'",
+  "last_checked": "2026-10",
+  "steps": [
+    {
+      "key": "emission_reductions",
+      "label": "Emission reductions"
+    },
+    {
+      "key": "leakage",
+      "label": "Leakage deduction"
+    },
+    {
+      "key": "uncertainty",
+      "label": "Uncertainty adjustment"
+    },
+    {
+      "key": "other_programs",
+      "label": "Emission reductions from other programs"
+    },
+    {
+      "key": "no_rights",
+      "label": "Other emission reductions with no Participant rights"
+    },
+    {
+      "key": "adjusted",
+      "label": "Adjusted TREES emission reductions"
+    },
+    {
+      "key": "buffer",
+      "label": "Buffer contribution"
+    },
+    {
+      "key": "credits",
+      "label": "Total TREES credits"
+    }
+  ],
+  "issued_to": "Participant only"
+}
